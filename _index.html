@@ -1,0 +1,28 @@
+<!--  Universidade de São Paulo - Campus São Carlos 
+        
+      Computer Engineering Thesis Project: Internet of "things" - controlling actuators through web pages
+      Author: Sindélio Henrique Lima
+      Advisor: Maximiliam Luppe
+      
+      June of 2017
+
+      This is the HTML controle file, to be displayed in a client app/browser.
+      Note: This file needs to be named differently from "index.html" because the browser loads any file with the name "index.html" automatically.
+-->
+
+<!DOCTYPE html> <!-- Document type: Hyper Text Markup Language, used to display content in a webpage -->
+<html>
+<head>
+	<title> &gt&gt IoT Project &lt&lt </title>
+	<meta charset="utf-8"> <!-- Specifies the character set used in the webpage -->
+    <link rel="stylesheet" type="text/css" href="index.css"> <!-- Uses the style in index.css in the webpage -->
+</head>
+<body>
+    <div id="div1"> Remote control of the buzzer </div> <!-- Creates a division with some explanation text -->
+	<button id="button"> Activate </button> <!-- Creates a web button -->
+    <div id="div2"> Schedule date and time to activate the buzzer: </div> <!-- Creates a division with some explanation text -->
+    <input type="datetime-local" id="datetime" >
+	<script src="/socket.io/socket.io.js"></script> <!-- initializes the socket.io web communication in the client app/browser -->
+	<script src="index.js"></script> <!-- Executes the index.js script in the webpage -->
+</body>
+</html>
