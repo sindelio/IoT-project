@@ -1,6 +1,6 @@
 # iot_project
 ************************************************************************************************
-Brazil -
+Brazil - <break> 
 	Universidade de São Paulo - Campus São Carlos    
 	Computer Engineering Thesis Project: Internet of "things" - controlling actuators through web pages
     	Author: Sindélio Henrique Lima
