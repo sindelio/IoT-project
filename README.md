@@ -1,12 +1,11 @@
 # iot_project
 ************************************************************************************************
-Brazil - <break> 
-	Universidade de São Paulo - Campus São Carlos    
-	Computer Engineering Thesis Project: Internet of "things" - controlling actuators through web pages
-    	Author: Sindélio Henrique Lima
-    	Advisor: Maximiliam Luppe
-      
-   	June of 2017 
+## Brazil
+### Universidade de São Paulo - Campus São Carlos    
+### Computer Engineering Thesis Project: Internet of "things" - controlling actuators through web pages
+### Author: Sindélio Henrique Lima
+### Advisor: Maximiliam Luppe
+### June of 2017 
 ************************************************************************************************
 
 This is a simple IoT project focused in security. The objective of the project is to control an actuator, of which a buzzer was chosen for test, but it can be anything with a on/off behavior. The MRAA library was used to interact with the buzzer.
@@ -14,9 +13,9 @@ This is a simple IoT project focused in security. The objective of the project i
 SETUP
 
 In order to download the dependencies of the project on your working environment, run the following command:
-
+```node
 $ npm install
-
+```
 This command will install all Node.js dependencies on your working environment. Be sure to have Node.js and NPM (Node Package Manager) installed on your environment pior to running this command.
 
 RUNNING THE SYSTEM
