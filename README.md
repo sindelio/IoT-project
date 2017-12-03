@@ -32,6 +32,9 @@ In which 3000 is the port used by the Node.js HTTPS server.
 
 **IMPORTANT:** If you are going to used this project in a comercial application, I strongly recommend you change the asymmetric cryptography keys in the security folder before doing so. You can use the OpenSSL to generate new criptographic material for the Node.js HTTPS server.
 
+
+Indepth details about the project can be found in the Monografia.pdf file (although it's in Portuguese).
+
       
    
 
