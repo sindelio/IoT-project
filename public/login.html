@@ -1,0 +1,31 @@
+<!--  Universidade de São Paulo - Campus São Carlos 
+        
+      Computer Engineering Thesis Project: Internet of "things" - controlling actuators through web pages
+      Author: Sindélio Henrique Lima
+      Advisor: Maximiliam Luppe
+      
+      June of 2017 
+      
+      This is the HTML login file, to be displayed in a client app/browser
+-->
+
+<!DOCTYPE html> <!-- Document type: Hyper Text Markup Language, used to display content in a webpage -->
+<html>
+<head>
+	<meta charset="utf-8"> <!-- Specifies the character set used in the webpage -->
+    <link rel="stylesheet" type="text/css" href="login.css"> <!-- Uses the style in login.css in the webpage -->
+	<title> &gt&gt IoT Project &lt&lt </title>
+</head>
+<body>
+	<form action="/" method="post" id="form"> <!-- Creates a form with the post method -->
+        <div id="div1"> Welcome to the IoT control system !! </div>
+        <div id="div2"> Please login into the system: </div>
+		<input type="text" name="login" placeholder="Login" id="login" size="20" required> <!-- Creates the login input field -->
+		<input type="password" name="password" placeholder="Password" id="password" size="20" required> <!-- Creates the password input field -->
+		<input type="submit" value="Submit" id="submit"> 
+	</form>
+	<script src="/socket.io/socket.io.js"></script> <!-- initializes the socket.io web communication in the client app/browser -->
+	<script src="login.js"></script> <!-- Executes the login.js script in the webpage -->
+    <!--<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script> -->
+</body>
+</html>
