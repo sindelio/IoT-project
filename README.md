@@ -24,16 +24,19 @@ To run the project, use the following command:
 ```
 $ node main.js
 ```
-This command will start the Node.js HTTPS server, and then you will be able to access the server with a browser in the local network through the following URL:
+This command will start the Node.js HTTPS server, and then you will be able to access the server with a browser in the local host through the following URL:
 ```
 https://localhost:3000
 ```
-In which 3000 is the port used by the Node.js HTTPS server. 
+In which 3000 is the port used by the Node.js HTTPS server. The server can also be accessed through it's IP address in the local network, which should look like this:
+```
+https://192.168.26.16:3000
+```
 
-**IMPORTANT:** If you are going to used this project in a comercial application, I strongly recommend you change the asymmetric cryptography keys in the security folder before doing so. You can use the OpenSSL to generate new criptographic material for the Node.js HTTPS server.
+**IMPORTANT:** You need to create new asymmetric cryptography keys in order to use the HTTPS server. You can use the OpenSSL to generate new criptographic material for the Node.js HTTPS server. The generated cryptographic material, meaning the public and private keys, should be placed in the **security** folder. Also remember to modify the main.js program to look for the correct file names that you created. Here's a simple tutorial on how to create your own asymmetric keys using OpenSSL: https://rietta.com/blog/2012/01/27/openssl-generating-rsa-key-from-command/
 
 
-Indepth details about the project can be found in the Monografia.pdf file (although it's in Portuguese).
+Indepth details about the project can be found in the Monografia.pdf file (although it's written in Portuguese).
 
       
    
