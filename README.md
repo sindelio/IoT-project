@@ -16,7 +16,7 @@ In order to download the dependencies of the project on your working environment
 ```node
 $ npm install
 ```
-This command will install all Node.js dependencies on your working environment. Be sure to have Node.js and NPM (Node Package Manager) installed on your environment pior to running this command.
+This command will install all Node.js dependencies on your working environment. Be sure to have Node.js and NPM (Node Package Manager) installed on your environment prior to running this command.
 
 **RUNNING THE SYSTEM**
 
@@ -37,7 +37,7 @@ https://192.168.26.16:3000
 
 
 Indepth details about the project can be found in the report file (although it's written in Portuguese):
-Internet of "things": controlling actuators through an Internet page
+Internet of "things": controlling actuators through an Internet page.pdf
 
       
    
