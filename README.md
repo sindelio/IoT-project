@@ -36,7 +36,8 @@ https://192.168.26.16:3000
 **IMPORTANT:** You need to create new asymmetric cryptography keys in order to use the HTTPS server. You can use the OpenSSL to generate new criptographic material for the Node.js HTTPS server. The generated cryptographic material, meaning the public and private keys, should be placed in the **security** folder. Also remember to modify the main.js program to look for the correct file names that you created. Here's a simple tutorial on how to create your own asymmetric keys using OpenSSL: https://rietta.com/blog/2012/01/27/openssl-generating-rsa-key-from-command/
 
 
-Indepth details about the project can be found in the Monografia.pdf file (although it's written in Portuguese).
+Indepth details about the project can be found in the report file (although it's written in Portuguese):
+Internet of "things": controlling actuators through an Internet page
 
       
    
