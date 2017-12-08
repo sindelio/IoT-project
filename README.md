@@ -13,7 +13,7 @@ This is a simple IoT project focused in security. The objective of the project i
 **SETUP**
 
 In order to download the dependencies of the project on your working environment, run the following command:
-```node
+```
 $ npm install
 ```
 This command will install all Node.js dependencies on your working environment. Be sure to have Node.js and NPM (Node Package Manager) installed on your environment prior to running this command.
