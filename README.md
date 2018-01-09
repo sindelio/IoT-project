@@ -10,7 +10,7 @@
 
 This is a simple IoT project focused in security. The objective of the project is to control an actuator, of which a buzzer was chosen for test, but it can be anything with a on/off behavior. The MRAA library was used to interact with the buzzer.
 
-**SETUP**
+#### SETUP
 
 The Intel Edison board was used for the project. Unfortunately, [this board was discontinued by Intel](https://software.intel.com/en-us/iot/hardware/discontinued). Other platforms can be used with little or no changes in the code, such as a Raspberry Pi, since the libraries used support the most commonly used platforms.
 In order to download the dependencies of the project on your working environment, run the following command:
@@ -19,7 +19,7 @@ $ npm install
 ```
 This command will install all Node.js dependencies on your working environment. Be sure to have Node.js and NPM (Node Package Manager) installed on your environment prior to running this command.
 
-**RUNNING THE SYSTEM**
+#### RUNNING THE SYSTEM
 
 To run the project, use the following command:
 ```
@@ -41,7 +41,12 @@ https://192.168.26.16:3000
 Indepth details about the project can be found in the report file (although it's written in Portuguese):
 Internet of "things": controlling actuators through an Internet page.pdf
 
-**LICENSE**
+#### Contributions
+
+ANY COMMENTS AND CONTRIBUTIONS ARE MUCH WELCOME!
+
+#### Copyright and license
+
 This code is distributed under [the MIT license](https://github.com/sindelio/IoT_project/blob/master/LICENSE).
 
 
