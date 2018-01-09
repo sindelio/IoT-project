@@ -41,6 +41,10 @@ https://192.168.26.16:3000
 Indepth details about the project can be found in the report file (although it's written in Portuguese):
 Internet of "things": controlling actuators through an Internet page.pdf
 
+**LICENSE**
+This code is distributed under [the MIT license](https://github.com/sindelio/IoT_project/blob/master/LICENSE).
+
+
       
    
 
