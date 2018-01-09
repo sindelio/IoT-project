@@ -12,7 +12,7 @@ This is a simple IoT project focused in security. The objective of the project i
 
 **SETUP**
 
-The Intel Edison board was used for the project. Unfortunately,[this board was discontinued by Intel](https://software.intel.com/en-us/iot/hardware/discontinued). Other platforms can be used with little or no changes in the code, such as a Raspberry Pi, since the libraries used support the most commonly used platforms.
+The Intel Edison board was used for the project. Unfortunately, [this board was discontinued by Intel](https://software.intel.com/en-us/iot/hardware/discontinued). Other platforms can be used with little or no changes in the code, such as a Raspberry Pi, since the libraries used support the most commonly used platforms.
 In order to download the dependencies of the project on your working environment, run the following command:
 ```
 $ npm install
