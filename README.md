@@ -39,7 +39,7 @@ https://192.168.26.16:3000
 
 
 In depth details about the project can be found in the report file (although it's written in Portuguese):
-_Internet of "things": controlling actuators through an Internet page.pdf_
+**Internet of "things": controlling actuators through an Internet page.pdf**
 
 #### Contributions
 
