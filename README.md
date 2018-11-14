@@ -38,8 +38,8 @@ https://192.168.26.16:3000
 [how to create your own asymmetric keys using OpenSSL](https://rietta.com/blog/2012/01/27/openssl-generating-rsa-key-from-command/).
 
 
-Indepth details about the project can be found in the report file (although it's written in Portuguese):
-Internet of "things": controlling actuators through an Internet page.pdf
+In depth details about the project can be found in the report file (although it's written in Portuguese):
+_Internet of "things": controlling actuators through an Internet page.pdf_
 
 #### Contributions
 
